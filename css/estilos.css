@@ -7,11 +7,12 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
+    
 }
 
 body{
     background: rgb(51,51,51);
-background: linear-gradient(90deg, rgba(51,51,51,0.32816876750700286) 0%, rgba(210,49,59,0.5662640056022409) 100%);
+background: linear-gradient(90deg, rgba(51,51,51,0.32816876750700286) 0%, #d2313c9d 100%);
 }
 
 header{
@@ -232,15 +233,25 @@ article h2{
     
     color: #D2313B;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 55px;
+}
+
+article h1 b{
+    font-family: 'Yellowtail', cursive;
+    text-shadow: 0px 0px 9px rgba(0, 0, 0, 0.534);
+}
+
+article h2 b{
+    font-family: 'Yellowtail', cursive;
+    text-shadow: 0px 0px 9px rgba(0, 0, 0, 0.534);
 }
 
 article .moon{
     text-align: center;
-      
-    font-size: 30px;
+    margin: 0;  
+    font-size: 20px;
 }
 
 article p{
@@ -332,8 +343,8 @@ article img{
     margin-bottom: 4px;overflow: hidden;}
 .meta-sission .head .per input::-webkit-slider-thumb{-webkit-appearance: none;width: 0;
     box-shadow: -100px 0 0 100px #0075ff;}
-.groups .body .title{height: 60px;overflow: hidden;font-size: 24px;}
-.groups .body .desc{height: 45px;overflow: hidden;margin-bottom: 10px;font-size: 15px;}
+.groups .body .title{height: 50px;overflow: hidden;font-size: 24px;}
+.groups .body .desc{height: 50px;overflow: hidden;margin-bottom: 10px;font-size: 15px;}
 .groups .footer .button{position: absolute;bottom: 20px;right: 25px;background: #D2313B;color: #fff;
     line-height: 2.2;padding: 0 20px;border-radius: 50px;text-decoration: none;
     box-shadow: 0 1px 6px 0 #0004;transition: all 0.3s;}
@@ -636,5 +647,8 @@ footer .redes-footer .fa-instagram:hover{
     .h1-cover{
         font-size: 80px;
     }
-    
+
+    .groups .body .desc{
+        font-size: 13px;
+    }
 }
